@@ -1,4 +1,4 @@
-from src.assignment12.util import happiness_score
+from util import happiness_score
 
 if __name__ == '__main__':
     n, m = map(int, input().split())
