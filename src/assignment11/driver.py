@@ -1,4 +1,4 @@
-from src.assignment11.util import mutate_string
+from util import mutate_string
 
 if __name__ == '__main__':
     s = input()
