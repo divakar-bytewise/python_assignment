@@ -1,4 +1,4 @@
-from src.assignment9.util import merge_the_tools
+from util import merge_the_tools
 
 if __name__ == '__main__':
     string = input()
