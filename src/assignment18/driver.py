@@ -1,4 +1,4 @@
-from src.assignment18.util import word_occurrence_counter
+from util import word_occurrence_counter
 
 if __name__ == '__main__':
     n = int(input())
