@@ -1,4 +1,4 @@
-from src.assignment1.util import finding_second_largest
+from python_assignment.src.assignment3.util import finding_second_largest
 
 if __name__ == '__main__':
     n=int(input("Enter number of elements: "))
