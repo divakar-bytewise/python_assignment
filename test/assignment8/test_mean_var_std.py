@@ -1,5 +1,5 @@
 import unittest
-from python_repo.src.mean_var_std.util import calculate_statistics
+from python_assignment.src.assignment8.util import calculate_statistics
 
 class TestCalculateStatistics(unittest.TestCase):
     def test_calculate_statistics(self):
