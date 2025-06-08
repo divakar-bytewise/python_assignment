@@ -12,25 +12,25 @@ You can check out all my submissions and progress here:
 Below is a list of Python scripts grouped by concept:
 
 ###  Basics & Data Types
-- `Find_the_Runner-Up_Score.py`  
-- `Finding_the_percentage.py`  
-- `Mutation.py`  
-- `Min_Max.py`
+- `find_the_runner_up_score.py`  
+- `finding_the_percentage.py`  
+- `mutation.py`  
+- `min_max.py`
 
 ###  Date & Time
-- `Calendar_Module.py`  
-- `Time_Delta.py`
+- `calendar_module.py`  
+- `time_delta.py`
 
 ###  Math & Numpy
-- `Floor_Ceil_Rint.py`  
-- `Linear_Algebra.py`  
-- `Mean_Var_Std.py`
+- `floor_ceil_rint.py`  
+- `linear_algebra.py`  
+- `mean_var_std.py`
 
 ###  Strings
-- `Merge_the_Tools.py`  
-- `String_Fromating.py`  
-- `Text_Alignment.py`
+- `merge_the_tools.py`  
+- `string_fromating.py`  
+- `text_alignment.py`
 
 ###  Collections
-- `Collections_namedtuple.py`
+- `collectionsnamedtuple.py`
 
