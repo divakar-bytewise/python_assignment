@@ -1,4 +1,4 @@
-from src.assignment6.util import probability_of_a
+from util import probability_of_a
 
 if __name__ == '__main__':
     n = int(input("Enter number of letters: "))
