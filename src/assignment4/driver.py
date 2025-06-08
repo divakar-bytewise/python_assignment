@@ -1,4 +1,4 @@
-from src.assignment4.util import finding_average
+from util import finding_average
 
 if __name__ == '__main__':
     n = int(input("Enter number of students: "))
