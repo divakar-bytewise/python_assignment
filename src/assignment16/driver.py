@@ -1,4 +1,4 @@
-from src.assignment16.util import time_delta
+from util import time_delta
 
 if __name__ == '__main__':
     t = int(input())
