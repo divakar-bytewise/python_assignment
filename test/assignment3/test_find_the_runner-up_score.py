@@ -1,5 +1,5 @@
 import unittest
-from src.assignment1.util import finding_second_largest
+from python_assignment.src.assignment3.util import finding_second_largest
 
 class TestFindingSecondLargest(unittest.TestCase):
 
