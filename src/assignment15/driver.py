@@ -1,4 +1,4 @@
-from src.assignment15.util import print_h_logo
+from util import print_h_logo
 
 if __name__ == '__main__':
     thickness = int(input())
