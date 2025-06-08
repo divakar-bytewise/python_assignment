@@ -5,9 +5,9 @@ from python_assignment.src.assignment10.util import determinant
 
 class TestDeterminant(unittest.TestCase):
     def test_determinant(self):
-        captured_output = io.StringIO()
-        sys.stdout = captured_output
-        sys.stdin = io.StringIO("2\n1 2\n3 4\n")
+        captured_output=io.StringIO()
+        sys.stdout=captured_output
+        sys.stdin=io.StringIO("2\n1 2\n3 4\n")
         
         determinant(2)
         
