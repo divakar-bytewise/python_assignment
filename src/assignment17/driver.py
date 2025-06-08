@@ -1,4 +1,4 @@
-from src.assignment17.util import filter_mail
+from util import filter_mail
 
 if __name__ == '__main__':
     n = int(input())
