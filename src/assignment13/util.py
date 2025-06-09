@@ -17,8 +17,8 @@ def can_stack_cubes(cubes):
     return "Yes"
 
 
-t = int(input())
 for _ in range(t):
+    t=int(input())
     n = int(input())
     cubes = list(map(int, input().split()))
     print(can_stack_cubes(cubes))
