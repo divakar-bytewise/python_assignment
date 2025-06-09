@@ -1,21 +1,26 @@
 import unittest
-import io
 import sys
-from python_assignment.src.assignment10.util import determinant
+import io
+import numpy as np
+from python_assignment.src.assignment10.util import max_min
 
-class TestDeterminant(unittest.TestCase):
-    def test_determinant(self):
-        captured_output=io.StringIO()
-        sys.stdout=captured_output
-        sys.stdin=io.StringIO("2\n1 2\n3 4\n")
+class TestMaxMin(unittest.TestCase):
+    def test_max_min(self):
         
-        determinant(2)
+        test_input = "3 3\n3 7 8\n2 9 4\n1 5 6\n"
+        expected_output = "4\n"
+
+    
+        sys.stdin = io.StringIO(test_input)
+        captured_output = io.StringIO()
+        sys.stdout = captured_output
         
-        sys.stdout = sys.__stdout__
+        max_min(3, 3)
+
         sys.stdin = sys.__stdin__
+        sys.stdout = sys.__stdout__
 
-        output = captured_output.getvalue().strip()
-        self.assertEqual(output, "-2.0")
+        self.assertEqual(captured_output.getvalue(), expected_output)
 
 if __name__ == '__main__':
     unittest.main()
