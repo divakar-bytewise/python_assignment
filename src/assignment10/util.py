@@ -6,7 +6,7 @@ def max_min(n,m):
         l=list(map(int, input().split()))
         list1.append(l)
     arr=np.array(list1)
-    print(np.max(np.min(arr,axis=1)))
+    print(np.max(np.min(arr, axis=1)))
     
     
     
