@@ -1,5 +1,5 @@
-from util import determinant
+from util import max_min
 
 if __name__ == '__main__':
-    n = int(input())
-    determinant(n)
+    n, m = map(int, input().split())
+    max_min(n, m)
